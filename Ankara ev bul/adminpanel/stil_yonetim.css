@@ -1,0 +1,91 @@
+@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #BDF5FF;
+}
+#dis_alan {
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#banner {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #333333;
+	text-align: center;
+	height: 40px;
+	width: 1000px;
+	padding-top: 10px;
+}
+#navigasyon {
+	height: 30px;
+	width: 1000px;
+	background-image: url(bg_navigasyon.gif);
+}
+#adsoyad {
+	height: 20px;
+	width: auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	float: left;
+	margin-left: 50px;
+	padding-top: 5px;
+	color: #00FF00;
+}
+#gorev {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #00FF00;
+	height: 20px;
+	width: auto;
+	margin-left: 50px;
+	padding-top: 5px;
+	float: left;
+	font-size: 13px;
+}
+#icerik_alani {
+	height: auto;
+	width: 1000px;
+}
+#butonlar {
+	float: left;
+	height: auto;
+	width: 250px;
+	background-image: url(bg_butonlar.gif);
+}
+#icerik
+{
+    padding: 5px 0px 0px 5px;
+    height: auto;
+    width: 745px;
+    float: left;
+}
+#butonlar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#butonlar ul li {
+}
+#butonlar ul li a {
+	display: block;
+	width: 200px;
+	margin-left: 25px;
+	height: 25px;
+	padding-top: 5px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	background-image: url(bg_buton.gif);
+	color: #FFFFFF;
+}
+#butonlar a:hover {
+	color: #333333;
+}
